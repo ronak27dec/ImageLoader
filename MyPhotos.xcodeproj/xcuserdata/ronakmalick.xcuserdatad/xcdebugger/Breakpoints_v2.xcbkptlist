@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "66A7B5D8-5CEB-4BB5-AA4E-350EFAD03B8A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A41FC0C9-FF31-4359-AE91-26A476ECA594"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyPhotos/MyPhotosViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "fetchPhotos()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A41FC0C9-FF31-4359-AE91-26A476ECA594 - b7ba1feac413d935"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;MyPhotos.Photo&gt;, MyPhotos.NetworkError&gt;) -&gt; () in MyPhotos.MyPhotosViewModel.fetchPhotos() -&gt; ()"
+                  moduleName = "MyPhotos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ronakmalick/Development/my-work/MyPhotos/MyPhotos/MyPhotosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "A41FC0C9-FF31-4359-AE91-26A476ECA594 - b7ba1feac413d935"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;MyPhotos.Photo&gt;, MyPhotos.NetworkError&gt;) -&gt; () in MyPhotos.MyPhotosViewModel.fetchPhotos() -&gt; ()"
+                  moduleName = "MyPhotos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ronakmalick/Development/my-work/MyPhotos/MyPhotos/MyPhotosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "A41FC0C9-FF31-4359-AE91-26A476ECA594 - b7ba1feac413d935"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;MyPhotos.Photo&gt;, MyPhotos.NetworkError&gt;) -&gt; () in MyPhotos.MyPhotosViewModel.fetchPhotos() -&gt; ()"
+                  moduleName = "MyPhotos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ronakmalick/Development/my-work/MyPhotos/MyPhotos/MyPhotosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "A41FC0C9-FF31-4359-AE91-26A476ECA594 - b7ba1feac413d935"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;MyPhotos.Photo&gt;, MyPhotos.NetworkError&gt;) -&gt; () in MyPhotos.MyPhotosViewModel.fetchPhotos() -&gt; ()"
+                  moduleName = "MyPhotos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ronakmalick/Development/my-work/MyPhotos/MyPhotos/MyPhotosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "A41FC0C9-FF31-4359-AE91-26A476ECA594 - b7ba1feac413db9e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;MyPhotos.Photo&gt;, MyPhotos.NetworkError&gt;) -&gt; () in MyPhotos.MyPhotosViewModel.fetchPhotos() -&gt; ()"
+                  moduleName = "MyPhotos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ronakmalick/Development/my-work/MyPhotos/MyPhotos/MyPhotosViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "188">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

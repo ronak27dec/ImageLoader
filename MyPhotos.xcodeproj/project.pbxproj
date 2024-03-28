@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		64C56CB12BB496BA00E0C80C /* MyPhotosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C56CB02BB496BA00E0C80C /* MyPhotosApp.swift */; };
-		64C56CB32BB496BA00E0C80C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C56CB22BB496BA00E0C80C /* ContentView.swift */; };
+		64C56CB32BB496BA00E0C80C /* MyPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C56CB22BB496BA00E0C80C /* MyPhotosView.swift */; };
 		64C56CB52BB496BB00E0C80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C56CB42BB496BB00E0C80C /* Assets.xcassets */; };
 		64C56CB82BB496BB00E0C80C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C56CB72BB496BB00E0C80C /* Preview Assets.xcassets */; };
+		64C56CBF2BB496F200E0C80C /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C56CBE2BB496F200E0C80C /* Photo.swift */; };
+		64C56CC12BB498B800E0C80C /* MyPhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C56CC02BB498B800E0C80C /* MyPhotosViewModel.swift */; };
+		64C56CC32BB4997C00E0C80C /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C56CC22BB4997C00E0C80C /* APIService.swift */; };
+		64C56CC52BB4B55400E0C80C /* PhotoErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C56CC42BB4B55400E0C80C /* PhotoErrorView.swift */; };
+		64C56CC72BB4B58B00E0C80C /* PhotoViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C56CC62BB4B58B00E0C80C /* PhotoViewRow.swift */; };
+		64C56CC92BB4B72000E0C80C /* PhotoImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C56CC82BB4B72000E0C80C /* PhotoImageView.swift */; };
+		64C56CCB2BB5CC7600E0C80C /* PhotoImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C56CCA2BB5CC7600E0C80C /* PhotoImageViewModel.swift */; };
+		64C56CCD2BB5EC0800E0C80C /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C56CCC2BB5EC0800E0C80C /* ImageCacheManager.swift */; };
+		64C56CCF2BB5F06D00E0C80C /* PhotoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C56CCE2BB5F06D00E0C80C /* PhotoDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		64C56CAD2BB496BA00E0C80C /* MyPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C56CB02BB496BA00E0C80C /* MyPhotosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPhotosApp.swift; sourceTree = "<group>"; };
-		64C56CB22BB496BA00E0C80C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64C56CB22BB496BA00E0C80C /* MyPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPhotosView.swift; sourceTree = "<group>"; };
 		64C56CB42BB496BB00E0C80C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64C56CB72BB496BB00E0C80C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64C56CBE2BB496F200E0C80C /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		64C56CC02BB498B800E0C80C /* MyPhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPhotosViewModel.swift; sourceTree = "<group>"; };
+		64C56CC22BB4997C00E0C80C /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		64C56CC42BB4B55400E0C80C /* PhotoErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoErrorView.swift; sourceTree = "<group>"; };
+		64C56CC62BB4B58B00E0C80C /* PhotoViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewRow.swift; sourceTree = "<group>"; };
+		64C56CC82BB4B72000E0C80C /* PhotoImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoImageView.swift; sourceTree = "<group>"; };
+		64C56CCA2BB5CC7600E0C80C /* PhotoImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoImageViewModel.swift; sourceTree = "<group>"; };
+		64C56CCC2BB5EC0800E0C80C /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
+		64C56CCE2BB5F06D00E0C80C /* PhotoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +70,18 @@
 			isa = PBXGroup;
 			children = (
 				64C56CB02BB496BA00E0C80C /* MyPhotosApp.swift */,
-				64C56CB22BB496BA00E0C80C /* ContentView.swift */,
+				64C56CB22BB496BA00E0C80C /* MyPhotosView.swift */,
+				64C56CC02BB498B800E0C80C /* MyPhotosViewModel.swift */,
+				64C56CBE2BB496F200E0C80C /* Photo.swift */,
+				64C56CC22BB4997C00E0C80C /* APIService.swift */,
 				64C56CB42BB496BB00E0C80C /* Assets.xcassets */,
 				64C56CB62BB496BB00E0C80C /* Preview Content */,
+				64C56CC42BB4B55400E0C80C /* PhotoErrorView.swift */,
+				64C56CC62BB4B58B00E0C80C /* PhotoViewRow.swift */,
+				64C56CC82BB4B72000E0C80C /* PhotoImageView.swift */,
+				64C56CCA2BB5CC7600E0C80C /* PhotoImageViewModel.swift */,
+				64C56CCC2BB5EC0800E0C80C /* ImageCacheManager.swift */,
+				64C56CCE2BB5F06D00E0C80C /* PhotoDetailView.swift */,
 			);
 			path = MyPhotos;
 			sourceTree = "<group>";
@@ -137,8 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64C56CB32BB496BA00E0C80C /* ContentView.swift in Sources */,
+				64C56CBF2BB496F200E0C80C /* Photo.swift in Sources */,
+				64C56CC32BB4997C00E0C80C /* APIService.swift in Sources */,
+				64C56CCD2BB5EC0800E0C80C /* ImageCacheManager.swift in Sources */,
+				64C56CC52BB4B55400E0C80C /* PhotoErrorView.swift in Sources */,
+				64C56CC12BB498B800E0C80C /* MyPhotosViewModel.swift in Sources */,
+				64C56CB32BB496BA00E0C80C /* MyPhotosView.swift in Sources */,
+				64C56CC72BB4B58B00E0C80C /* PhotoViewRow.swift in Sources */,
 				64C56CB12BB496BA00E0C80C /* MyPhotosApp.swift in Sources */,
+				64C56CCF2BB5F06D00E0C80C /* PhotoDetailView.swift in Sources */,
+				64C56CC92BB4B72000E0C80C /* PhotoImageView.swift in Sources */,
+				64C56CCB2BB5CC7600E0C80C /* PhotoImageViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
